@@ -1,1 +1,1 @@
-# Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation
+# Mask2Anomaly: Unmasking-Anomalies-in-Road-Scene-Segmentation
