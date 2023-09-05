@@ -5,5 +5,5 @@
 Please follow the [Installation Instruction](https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md) to set up the codebase.
 
 ### Dataset
-* Inlier Dataset(Cityscapes): can be prepared by following the same structure as given [here](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md).
-* Outlier Dataset(MS-COCO): is created by using [this script](https://github.com/robin-chan/meta-ood/blob/master/preparation/prepare_coco_segmentation.py).
+* **Inlier Dataset(Cityscapes):** can be prepared by following the same structure as given [here](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md).
+* **Outlier Dataset(MS-COCO):** is created by using [this script](https://github.com/robin-chan/meta-ood/blob/master/preparation/prepare_coco_segmentation.py).
