@@ -11,5 +11,8 @@ Please follow the [Installation Instruction](https://github.com/facebookresearch
 
 ### Training and Inference
 
-* We provide all the commands for training, ood-fine tune, and anomaly inference in ``run.sh``. 
+* We provide all the commands for training, ood-fine-tune, and anomaly inference in ``run.sh`` and corresponding config files at ``/configs/cityscapes
+/semantic-segmentation/``.
+* To perform anomaly segmentation using pre-trained models, download the model from this [link](https://drive.google.com/file/d/1mlLYq8ADU7hDyKQdzCtXAkMb7tKIPO-H/view?usp=share_link) and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
+
 
