@@ -1,6 +1,6 @@
 # [**ICCV'23 Oral**] Unmasking Anomalies in Road-Scene Segmentation 
 [[`arXiv`](https://arxiv.org/abs/2307.13316)]
-
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://drive.google.com/file/d/1oXzaaRRw8hXn1P3hPR8gR7ul9hASLf1-/view?usp=share_link)
 Run our demo using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iMF5lWj3J8zlIJFkekXC3ipQo2semJfL?usp=sharing)
 
 ### Installation
