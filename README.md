@@ -1,7 +1,7 @@
 # [**ICCV'23 Oral**] Unmasking Anomalies in Road-Scene Segmentation 
 [[`arXiv`](https://arxiv.org/abs/2307.13316)]
 
-<img src="https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/assets/17329284/096effcd-51c8-4b1b-9b2b-f6746d4f6437" width="200">
+<img src="https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/assets/17329284/096effcd-51c8-4b1b-9b2b-f6746d4f6437" width="400" height="300">
 
 
 
