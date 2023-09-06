@@ -2,7 +2,7 @@
 [[`arXiv`](https://arxiv.org/abs/2307.13316)]
 
 
-https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/assets/17329284/60c2a577-65b0-4592-94ed-bc2e7481f893
+https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/assets/17329284/096effcd-51c8-4b1b-9b2b-f6746d4f6437
 
 
 Run our demo using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iMF5lWj3J8zlIJFkekXC3ipQo2semJfL?usp=sharing)
