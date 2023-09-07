@@ -21,7 +21,7 @@ Please follow the [Installation Instruction](https://github.com/facebookresearch
 * To perform anomaly segmentation using pre-trained models, download the model from this [link](https://drive.google.com/file/d/1mlLYq8ADU7hDyKQdzCtXAkMb7tKIPO-H/view?usp=share_link) and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
 
 ### Docker Image
-* singularity run --bind /input,/home/shyam/temp/output:/output mask2former.sif
+*  singularity run --bind /home/shyam/input:/input,/home/shyam/temp/output:/output mask2former.sif
 * 
 
 ### Acknowledgement
