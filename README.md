@@ -18,7 +18,10 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
 ### Training and Inference
 * We provide all the commands for training, ood-fine-tune, and anomaly inference in ``run.sh`` and corresponding config files at ``/configs/cityscapes
 /semantic-segmentation/``.
-* To perform anomaly segmentation using pre-trained models, download the model from this [link: for SMIYC, Fishyscapes, LostAndFound, and Road Anomaly](https://drive.google.com/file/d/1mlLYq8ADU7hDyKQdzCtXAkMb7tKIPO-H/view?usp=share_link) [link: StreetHazard](https://drive.google.com/file/d/1s_ctryZtFmawXkU2nWqSm6lXkeJkOrxg/view?usp=share_link) and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
+* To perform anomaly segmentation using pre-trained models, download the model from shared Google Drive link and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
+  +  Single Pretained model for SMIYC, Fishyscapes, LostAndFound, and Road Anomaly: [Link](https://drive.google.com/file/d/1mlLYq8ADU7hDyKQdzCtXAkMb7tKIPO-H/view?usp=share_link)
+  +  StreetHazard: [Link](https://drive.google.com/file/d/1s_ctryZtFmawXkU2nWqSm6lXkeJkOrxg/view?usp=share_link)
+*  
 
 ### Docker Image
 *  singularity run --bind /home/shyam/input:/input,/home/shyam/temp/output:/output mask2former.sif
