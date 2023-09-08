@@ -23,8 +23,8 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
   +  StreetHazard: [Link](https://drive.google.com/file/d/1s_ctryZtFmawXkU2nWqSm6lXkeJkOrxg/view?usp=share_link)
 
 ### Docker Image
-*  We provide a singularity image similar to docker that provides anomaly output without needing any library installation.
-*  Install Singularity [Link](https://singularity-admindoc.readthedocs.io/en/latest/admin_quickstart.html)
+*  We provide a singularity image similar to docker that provides anomaly output without needing library installation/GPUs.
+*  Install Singularity following the instructions. [Link](https://singularity-admindoc.readthedocs.io/en/latest/admin_quickstart.html)
 *  Download the .sif image from [link](https://drive.google.com/file/d/1djIP2PelLyzNgfWIzg78eq51t3ZAssO_/view?usp=share_link)
 * Run the command ``singularity run --bind {input-path-to-image-datset}:/input,{output-path-to-save-segmentation-maps}:/output mask2former.sif``
 
