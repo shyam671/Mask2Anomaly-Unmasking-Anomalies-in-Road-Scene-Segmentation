@@ -21,11 +21,12 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
 * To perform anomaly segmentation using pre-trained models, download the model from shared Google Drive link and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
   +  Single Pretained model for SMIYC, Fishyscapes, LostAndFound, and Road Anomaly: [Link](https://drive.google.com/file/d/1mlLYq8ADU7hDyKQdzCtXAkMb7tKIPO-H/view?usp=share_link)
   +  StreetHazard: [Link](https://drive.google.com/file/d/1s_ctryZtFmawXkU2nWqSm6lXkeJkOrxg/view?usp=share_link)
-*  
 
 ### Docker Image
-*  singularity run --bind /home/shyam/input:/input,/home/shyam/temp/output:/output mask2former.sif
-* 
+*  We provide a singularity image similar to docker that provides anomaly output without needing any library installation.
+*  Install Singularity [Link](https://singularity-admindoc.readthedocs.io/en/latest/admin_quickstart.html)
+*  Download the .sif image from [link](https://drive.google.com/file/d/1djIP2PelLyzNgfWIzg78eq51t3ZAssO_/view?usp=share_link)
+* Run the command ``singularity run --bind {input-path-to-image-datset}:/input,{output-path-to-save-segmentation-maps}:/output mask2former.sif``
 
 ### Acknowledgement
 
