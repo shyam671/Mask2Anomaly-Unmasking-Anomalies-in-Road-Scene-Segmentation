@@ -10,8 +10,9 @@ Run our demo using Colab: [![Open In Colab](https://colab.research.google.com/as
 Please follow the [Installation Instruction](https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md) to set up the codebase.
 
 ### Datasets
-* **Inlier Dataset(Cityscapes):** can be prepared by following the same structure as given [here](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md).
-* **Outlier Supervision Dataset(MS-COCO):** is created by using [this script](https://github.com/robin-chan/meta-ood/blob/master/preparation/prepare_coco_segmentation.py) and then change the ``cfg.MODEL.MASK_FORMER.ANOMALY_FILEPATH`` accordingly.
+We have three different sets of dataset used for training, ood-fine-tuning, and anomaly inference. Please follow the below steps to set-up each set. 
+* **Inlier Dataset(Cityscapes/Streethazard):** consists of only inlier classes that can be prepared by following the same structure as given [here](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md).
+* **Outlier Supervision Dataset(MS-COCO):** helps fine-tune the model ood-objects that is pre-trained on the inlier dataset. The outlier dataset is created by using [this script](https://github.com/robin-chan/meta-ood/blob/master/preparation/prepare_coco_segmentation.py) and then changing the ``cfg.MODEL.MASK_FORMER.ANOMALY_FILEPATH`` accordingly.
 * **Anomaly Dataset (validation):** can be downloaded using this [link](https://drive.google.com/file/d/1r2eFANvSlcUjxcerjC8l6dRa0slowMpx/view?usp=share_link). Please unzip the file and place it preferably in the dataset folder.
 
 ### Training and Inference
