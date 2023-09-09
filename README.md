@@ -1,5 +1,10 @@
 # [**ICCV'23 Oral**] Unmasking Anomalies in Road-Scene Segmentation 
 [[`arXiv`](https://arxiv.org/abs/2307.13316)]
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-lost-and-found)](https://paperswithcode.com/sota/anomaly-detection-on-lost-and-found?p=unmasking-anomalies-in-road-scene)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/scene-segmentation-on-streethazards)](https://paperswithcode.com/sota/scene-segmentation-on-streethazards?p=unmasking-anomalies-in-road-scene)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-fishyscapes-1)](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-1?p=unmasking-anomalies-in-road-scene)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-road-anomaly)](https://paperswithcode.com/sota/anomaly-detection-on-road-anomaly?p=unmasking-anomalies-in-road-scene)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-fishyscapes-l-f)](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-l-f?p=unmasking-anomalies-in-road-scene)
 
 https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/assets/17329284/096effcd-51c8-4b1b-9b2b-f6746d4f6437
 
