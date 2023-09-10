@@ -23,7 +23,9 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
 
 ### Training and Inference
 * The training of the model takes place in two stages:
-  + [Stage1] Training of inlier dataset performed using the command: Cityscapes Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1  --config-file configs/cityscapes/semantic-segmentation/anomaly_train.yaml``. Streethazard Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1 --config-file '/configs/streethazard/streethazard_training.yaml'``
+  + [Stage1] Training of inlier dataset performed using the command: Cityscapes Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1  --config-file configs/cityscapes/semantic-segmentation/anomaly_train.yaml``. Streethazard Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1 --config-file 'configs/streethazard/streethazard_training.yaml'``.
+  + [Stage2] We fine-tune the weights of the model using following command: Cityscapes Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1  --config-file configs/cityscapes/semantic-segmentation/anomaly_ft.yaml``. Streethazard Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1 --config-file 'configs/streethazard/streethazard_ft.yaml' ``.
+
 
 * We provide all the commands for training, ood-fine-tune, and anomaly inference in ``run.sh`` and corresponding config files at ``/configs/cityscapes
 /semantic-segmentation/``.
