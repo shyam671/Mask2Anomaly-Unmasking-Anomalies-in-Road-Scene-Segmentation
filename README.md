@@ -22,6 +22,9 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
 * **Anomaly Dataset (validation):** can be downloaded using this [link](https://drive.google.com/file/d/1r2eFANvSlcUjxcerjC8l6dRa0slowMpx/view?usp=share_link). Please unzip the file and place it preferably in the dataset folder.
 
 ### Training and Inference
+* The training of the model takes place in two stages:
+  + [Stage1] Training of inlier dataset performed using the command: Cityscapes Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1  --config-file configs/cityscapes/semantic-segmentation/anomaly_train.yaml``. Streethazard Dataset: ``CUDA_VISIBLE_DEVICES=1 python train_net.py --num-gpus 1 --config-file '/configs/streethazard/streethazard_training.yaml'``
+
 * We provide all the commands for training, ood-fine-tune, and anomaly inference in ``run.sh`` and corresponding config files at ``/configs/cityscapes
 /semantic-segmentation/``.
 * To perform anomaly segmentation using pre-trained models, download the model from shared Google Drive link and then change the model weight path in ``/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml``.
