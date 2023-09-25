@@ -9,6 +9,7 @@ INPUT:
 MODEL:
   BACKBONE:
      FREEZE_AT: 5
+  WEIGHTS: "/home/shyam/Mask2Former/output/xl-fl/bt-f-xl.pth" #Change Path
   META_ARCHITECTURE: "MaskFormer"
   RESNETS:
     NORM: "BN"
