@@ -9,7 +9,7 @@ INPUT:
 MODEL:
   BACKBONE:
      FREEZE_AT: 5
-  WEIGHTS: "/home/shyam/Mask2Former/output/xl-fl/bt-f-xl.pth" #Change Path
+  WEIGHTS: # Download the pre-trained R-50 from here https://dl.fbaipublicfiles.com/barlowtwins/ljng/resnet50.pth
   META_ARCHITECTURE: "MaskFormer"
   RESNETS:
     NORM: "BN"
