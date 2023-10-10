@@ -139,7 +139,7 @@ class MaskFormerSemanticDatasetMapper:
         self.is_ood_ft = is_ood_ft
         self.anomaly_mix_ratio = anomaly_mix_ratio
         self.anomaly_file_path = [anomaly_file_path]
-        self.gt_list = glob.glob(random.choice(self.anomaly_file_path))
+        self.gt_list = glob.glob(self.anomaly_file_path)
 
         logger = logging.getLogger(__name__)
         mode = "training" if is_train else "inference"
