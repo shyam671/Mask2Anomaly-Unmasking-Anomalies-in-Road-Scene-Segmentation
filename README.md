@@ -39,6 +39,15 @@ We have three different sets of dataset used for training, ood-fine-tuning, and 
 *  Download the .sif image from [link](https://drive.google.com/file/d/1djIP2PelLyzNgfWIzg78eq51t3ZAssO_/view?usp=share_link)
 * Run the command ``singularity run --bind {input-path-to-image-datset}:/input,{output-path-to-save-segmentation-maps}:/output mask2former.sif``
 
+## License
+
+Shield: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+The majority of Mask2Anomaly is licensed under a [MIT License](LICENSE).
+
+
+However portions of the project are available under separate license terms: Mask2Former and Swin-Transformer-Semantic-Segmentation is licensed under the [MIT license](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation/blob/main/LICENSE), Deformable-DETR is licensed under the [Apache-2.0 License](https://github.com/fundamentalvision/Deformable-DETR/blob/main/LICENSE).
+
 ### Acknowledgement
 
 We thank the authors of the codebases mentioned below, which helped build the repository.
